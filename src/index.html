@@ -1,29 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <link rel="stylesheet" href="../css/main.css">
     <title>Managing Landing Page</title>
 </head>
+
 <body>
-    <nav class="container  bg-red-300 mx-auto flex justify-between  items-center p-6" >
+    <!-- navbar  -->
+    <nav class="container mx-auto flex justify-between items-center p-6 bg-red-300">
         <!-- logo  -->
-        <div> 
+        <div>
             <img src="../img/logo.svg" alt="">
         </div>
-        <!-- menu  -->
-        <div class=" flex space-x-6">
-            <a href="#">Pricing</a>
-            <a href="#">Product</a>
-            <a href="#">About Us</a>
-            <a href="#">Careers</a>
-            <a href="#">Community</a>
+        <!-- menu items  -->
+        <div class=" hidden md:flex space-x-6">
+            <a href="#" class="hover:text-darkGrayishBlue">Pricing</a>
+            <a href="#" class="hover:text-darkGrayishBlue">Product</a>
+            <a href="#" class="hover:text-darkGrayishBlue">About Us</a>
+            <a href="#" class="hover:text-darkGrayishBlue">Careers</a>
+            <a href="#" class="hover:text-darkGrayishBlue">Community</a>
+            <!-- Button  -->
+            <a class="hidden md:block p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight"
+                href="#">Get Started</a>
+
         </div>
+
+
+
     </nav>
+
+    <!-- Hero Section  -->
+
+    <section id="hero">
+
+        <div class=" container flex flex-col-reverse  md:flex-row items-center mx-auto md:space-y-3">
+
+            <!-- left items  -->
+
+            <div>
+                <h1 class="md:text-5xl md:w-1/2">Bring everyone together to build better products.</h1>
+                <p class="mx-w-sm text-center text-darkGrayishBlue text-left md:w-1/2">Manage makes it simples for
+                    software teams to plan day-to-day tasks while keeping the larger team goals
+                    in view.
+                </p>
+                <div class="flex">
+                    <a class="md:block p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight"
+                        href="#">Get Started</a>
+                </div>
+
+            </div>
+
+            <!-- right items  -->
+            <div class='md:w-1/2'>
+                <img src="../img/illustration-intro.svg" alt="">
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Feature Section  -->
+
+    <!-- Testmonial Section  -->
     
-    
+
+
+  
+
+
+
+
+  
+
+
+
+
+
+
+
+
 </body>
+
 </html>
