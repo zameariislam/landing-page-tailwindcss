@@ -12,7 +12,7 @@
 
 <body>
     <!-- navbar  -->
-    <nav class="container mx-auto flex justify-between items-center p-6 bg-red-300">
+    <nav class="container mx-auto flex justify-between items-center p-6 ">
         <!-- logo  -->
         <div>
             <img src="../img/logo.svg" alt="">
@@ -38,29 +38,35 @@
 
     <section id="hero">
 
-        <div class=" container flex flex-col-reverse  md:flex-row items-center mx-auto md:space-y-3">
+        <div class="container mx-auto  flex flex-col items-center space-y-5 mt-12 md:flex-row md:space-y-0 md:justify-between">
+            <!-- left section  -->
+           
+          <div class="flex flex-col space-y-6 mb-12 md:w-1/2  ">
+            <h2 class="text-5xl font-bold max-w-md text-center md:text-left">Bring everyone together to build better products</h2>
+            <p class="text-sm  max-w-sm text-center md:text-left">Manage makes it simple for software teams to plan day-to-day tasks while keeping the larger team goals in view</p>
+             
+               <!-- button  -->
+            <div class="flex  justify-center md:justify-start">
+                <a class="p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight"
+                href="#">Get Started</a>
 
-            <!-- left items  -->
-
-            <div>
-                <h1 class="md:text-5xl md:w-1/2">Bring everyone together to build better products.</h1>
-                <p class="mx-w-sm text-center text-darkGrayishBlue text-left md:w-1/2">Manage makes it simples for
-                    software teams to plan day-to-day tasks while keeping the larger team goals
-                    in view.
-                </p>
-                <div class="flex">
-                    <a class="md:block p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight"
-                        href="#">Get Started</a>
-                </div>
 
             </div>
+          </div>
 
-            <!-- right items  -->
-            <div class='md:w-1/2'>
+
+            
+            <!-- right section  -->
+
+            <div class="md:w-1/2">
                 <img src="../img/illustration-intro.svg" alt="">
-
             </div>
+            
+
         </div>
+
+
+
 
     </section>
 
